@@ -10,7 +10,6 @@ import Foundation
 import CoreLocation
 
 struct City {
-    
     var name: String
     var coordinates: CLLocationCoordinate2D
 }

@@ -29,24 +29,3 @@ import CoreLocation
             }
         }
     }
-    
-    
-    
-//    static func weatherForCoordinates(latitude: String, longitude: String, completion: @escaping (WeatherData?, Error?) -> ()) {
-//
-//        let url = baseUrl + "\(apiKey)/\(latitude),\(longitude)"
-//
-//        Alamofire.request(url).responseJSON { response in
-//            switch response.result {
-//            case .success:
-//                let weather = JSONParser.parseWeatherData(data: response.result.value!)
-//                completion(weather, nil)
-//            case .failure(let error):
-//                completion(nil, error)
-//            }
-//        }
-//    }
-//
-//    // In this struct you could have more funcs. For example,
-//    // weatherForZipCode(...), weatherForCity(...) depending on the parameter(s) you pass
-//}
